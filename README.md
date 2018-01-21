@@ -37,6 +37,7 @@ Download and just unzip it and follow steps for setup.
     Check Dashboard/Discover in left Menu
     And you can see all the logs from your log file with timestamp. Filebeat automatically push new log at evry 30 Sec(You can customie     that time).
       
+     You can check Attached screenshots
   
 3)  Setup Dashboards and start filebeats
 
