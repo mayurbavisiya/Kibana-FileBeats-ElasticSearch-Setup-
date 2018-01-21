@@ -22,13 +22,21 @@ Download and just unzip it and follow steps for setup.
 1)   Start Elasticsearch with follow coomand from cmd
     <elasticSearchHome>/bin : elasticsearch
   
-    you can create your cluster and node network by configuting elasticsearch.yml placed at <elasticsearch-6.1.2>/config
+    you can create your cluster and node network by configuting elasticsearch.yml placed at <elasticsearch-6.1.2>/config    
+    You can check running elasticsearch using http://127.0.0.1:9200
+    For getting output based on some query use http://127.0.0.1:9200/_search?q=ABC
+    
   
 2)  Start Kibana with follow coomand from cmd
  
     <kibana-6.1.2-windows-x86_64>/bin : kibana.bat
     you can change configuration like startup timeout time etc by changing  kibana.yml placed at  <kibana-6.1.2-windows-x86_64>/config         folder.
-  
+    
+    Access running Kibana with http://127.0.0.1:5601
+    You can see Dashboard, Customize as per you requirement
+    Check Dashboard/Discover in left Menu
+    And you can see all the logs from your log file with timestamp. Filebeat automatically push new log at evry 30 Sec(You can customie     that time).
+      
   
 3)  Setup Dashboards and start filebeats
 
