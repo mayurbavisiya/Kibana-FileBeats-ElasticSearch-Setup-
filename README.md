@@ -35,7 +35,7 @@ Download and just unzip it and follow steps for setup.
     Access running Kibana with http://127.0.0.1:5601
     You can see Dashboard, Customize as per you requirement
     Check Dashboard/Discover in left Menu
-    And you can see all the logs from your log file with timestamp. Filebeat automatically push new log at evry 30 Sec(You can customie     that time).
+    And you can see all the logs from your log file with timestamp. Filebeat automatically push new log at evry 30 Sec.
       
      You can check Attached screenshots
   
